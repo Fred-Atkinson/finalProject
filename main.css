@@ -1,0 +1,147 @@
+
+body{
+    background-color: grey;
+  }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+
+  .header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    font-family: 'Raleway';
+  }
+  .firstComment{
+    background-color: #f2f2f2;
+  }
+
+  h3{
+ position: relative;
+ top: 20px;
+ left: 20px;
+  }
+
+  #name{
+    height: 25px;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-family: 'Raleway';
+  }
+
+  #comment{
+    position: relative;
+    bottom: -12px;
+    height: 25px;
+    width: 1200px;
+    border-radius: 5px;
+    border: solid black 2px;
+    font-family: 'Raleway';
+    font-size: 18px;
+  }
+
+  #submit{
+    border: none;
+    font-family: 'Raleway';
+    color:skyblue;
+    font-size: 23px;
+  }
+
+  .comments {
+    margin-top: 20px;
+  }
+  .edit{
+    border: none;
+    font-family: 'Raleway';
+    color:skyblue;
+    font-size: 15px;
+    background-color:#ffffff;
+  }
+  
+  .delete{
+    border: none;
+    font-family: 'Raleway';
+    color:skyblue;
+    font-size: 15px;
+    background-color:#ffffff;
+  }
+  .save{
+    border: none;
+    font-family: 'Raleway';
+    color:skyblue;
+    font-size: 15px;
+    background-color:#ffffff;
+  }
+  .cancel{
+    border: none;
+    font-family: 'Raleway';
+    color:skyblue;
+    font-size: 15px;
+    background-color:#ffffff;
+  }
+
+ .edit-name{
+    height: 25px;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-family: 'Raleway';
+ }
+
+ .edit-content{
+    height: 25px;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-family: 'Raleway';
+    min-width: 500px;
+ }
+  .create-comment {
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .comment {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+  }
+
+  img{
+    float:left;
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 15px;
+  }
+  .content{
+    font-size: 30px;
+  }
+
+  .comment .name {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .comment .content {
+    margin-bottom: 10px;
+  }
+
+  .comment .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .comment .actions button {
+    margin-left: 10px;
+  }
+
